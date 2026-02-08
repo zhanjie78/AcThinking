@@ -1,0 +1,45 @@
+{
+  "basic_attack": {
+    "name": "普攻",
+    "type": "damage",
+    "damage_min": 90,
+    "damage_max": 130,
+    "cd": 0,
+    "weight": 1
+  },
+  "poison_mist": {
+    "name": "毒雾",
+    "type": "apply_status",
+    "status": "poison",
+    "duration": 3,
+    "value": 45,
+    "chance": 0.8,
+    "cd": 2,
+    "weight": 20
+  },
+  "interrupt_shout": {
+    "name": "打断",
+    "type": "apply_status",
+    "status": "silence",
+    "duration": 1,
+    "chance": 0.65,
+    "cd": 3,
+    "weight": 15
+  },
+  "raise_shield": {
+    "name": "举盾",
+    "type": "add_shield",
+    "shield_value": 140,
+    "duration": 2,
+    "cd": 3,
+    "weight": 18
+  },
+  "heavy_strike": {
+    "name": "重击",
+    "type": "damage",
+    "damage_min": 160,
+    "damage_max": 220,
+    "cd": 2,
+    "weight": 12
+  }
+}
